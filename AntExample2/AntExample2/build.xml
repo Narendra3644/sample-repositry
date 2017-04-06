@@ -24,7 +24,10 @@
 		</javac>
 	</target>
 	
+<<<<<<< HEAD
 	
+=======
+>>>>>>> ap-may
 	<target name="war" depends="compile">
 		<war destfile="${dist.dir}/${project.name}.war" webxml="${web.dir}/WEB-INF/web.xml">
 			<fileset dir="${web.dir}"/>
