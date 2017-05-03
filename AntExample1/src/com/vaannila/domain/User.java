@@ -50,6 +50,10 @@ public class User {
 		return mailingList;
 	}
 	public void setMailingList(Boolean mailingList) {
+<<<<<<< HEAD
+=======
+		System.out.println("ramesh");
+>>>>>>> 3efb41a90065968d3c2cd206db0dba7bdc3f816e
 		this.mailingList = mailingList;
 	}
 	
