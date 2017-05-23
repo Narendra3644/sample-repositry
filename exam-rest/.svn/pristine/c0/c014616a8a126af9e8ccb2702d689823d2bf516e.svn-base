@@ -1,0 +1,21 @@
+package com.slokam.exam.main;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+
+@SpringBootApplication
+@ComponentScan({"com.slokam.exam.controller","com.slokam.exam.service","com.slokam.exam.sec","com.slokam.exam.main"})
+@EntityScan("com.slokam.exam.pojo")
+@EnableJpaRepositories("com.slokam.exam.dao")
+public class ExamMain {
+  
+	public static void main(String[] args) {
+		 SpringApplication.run(ExamMain.class);
+	}
+	
+	
+	
+}
